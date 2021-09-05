@@ -1,0 +1,518 @@
+{
+  "uid" : "19fdb781a2383874",
+  "name" : "Поиск телевизора",
+  "fullName" : "Яндекс Маркет: Поиск телевизора",
+  "historyId" : "19afb2ac1500bd5ce7446c88b4e4359d",
+  "time" : {
+    "start" : 1630879994985,
+    "stop" : 1630880152819,
+    "duration" : 157834
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "YandexMainSteps.setUp()",
+    "time" : {
+      "start" : 1630879995102,
+      "stop" : 1630880031287,
+      "duration" : 36185
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Когда  на главной странице выбран раздел \"Маркет\"",
+      "time" : {
+        "start" : 1630880031342,
+        "stop" : 1630880035953,
+        "duration" : 4611
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "На главной панели нажать кнопку: Маркет",
+        "time" : {
+          "start" : 1630880031618,
+          "stop" : 1630880035851,
+          "duration" : 4233
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "itemName",
+          "value" : "Маркет"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И  Переключить вкладку",
+      "time" : {
+        "start" : 1630880035957,
+        "stop" : 1630880036675,
+        "duration" : 718
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переключить вкладку",
+        "time" : {
+          "start" : 1630880035967,
+          "stop" : 1630880036664,
+          "duration" : 697
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда  на странице Маркета выбрана категория \"Электроника\"",
+      "time" : {
+        "start" : 1630880036677,
+        "stop" : 1630880072176,
+        "duration" : 35499
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "На панели нажать кнопку: Электроника",
+        "time" : {
+          "start" : 1630880036681,
+          "stop" : 1630880072172,
+          "duration" : 35491
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "itemName",
+          "value" : "Электроника"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Когда  проверен заголовок каталога: \"Электроника\"",
+      "time" : {
+        "start" : 1630880072178,
+        "stop" : 1630880073301,
+        "duration" : 1123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить заголовок каталога: Электроника",
+        "time" : {
+          "start" : 1630880072184,
+          "stop" : 1630880073298,
+          "duration" : 1114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "itemName",
+          "value" : "Электроника"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда  выбрать элемент из каталога \"Телевизоры\"",
+      "time" : {
+        "start" : 1630880073303,
+        "stop" : 1630880095302,
+        "duration" : 21999
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Выбрать элемент каталога: Телевизоры",
+        "time" : {
+          "start" : 1630880073306,
+          "stop" : 1630880095298,
+          "duration" : 21992
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "itemName",
+          "value" : "Телевизоры"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда  нажать на кнопку Все фильтры",
+      "time" : {
+        "start" : 1630880095304,
+        "stop" : 1630880110171,
+        "duration" : 14867
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажать на кнопку: Все фильтры",
+        "time" : {
+          "start" : 1630880095307,
+          "stop" : 1630880110170,
+          "duration" : 14863
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Когда  проверен заголовок фильтрации \"Все фильтры\"",
+      "time" : {
+        "start" : 1630880110173,
+        "stop" : 1630880110787,
+        "duration" : 614
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить что открылись фильтры: Все фильтры",
+        "time" : {
+          "start" : 1630880110176,
+          "stop" : 1630880110785,
+          "duration" : 609
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "itemName",
+          "value" : "Все фильтры"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда  Заполнить фильтр - Цена от: \"20000\"",
+      "time" : {
+        "start" : 1630880110789,
+        "stop" : 1630880115619,
+        "duration" : 4830
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Цена от: 20000",
+        "time" : {
+          "start" : 1630880110791,
+          "stop" : 1630880115616,
+          "duration" : 4825
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "valPrice",
+          "value" : "20000"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И  Чек бокс - фильтр по производителю: \"LG\"",
+      "time" : {
+        "start" : 1630880115621,
+        "stop" : 1630880119645,
+        "duration" : 4024
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Фильтр по производителю: LG",
+        "time" : {
+          "start" : 1630880115624,
+          "stop" : 1630880119644,
+          "duration" : 4020
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "valName",
+          "value" : "LG"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И  Чек бокс - фильтр по производителю: \"Samsung\"",
+      "time" : {
+        "start" : 1630880119646,
+        "stop" : 1630880124272,
+        "duration" : 4626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Фильтр по производителю: Samsung",
+        "time" : {
+          "start" : 1630880119646,
+          "stop" : 1630880124269,
+          "duration" : 4623
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "valName",
+          "value" : "Samsung"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И  Применить фильтр",
+      "time" : {
+        "start" : 1630880124273,
+        "stop" : 1630880129929,
+        "duration" : 5656
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Применить фильтр",
+        "time" : {
+          "start" : 1630880124275,
+          "stop" : 1630880129929,
+          "duration" : 5654
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Когда  Проверить, количество элементов на странице: \"48\"",
+      "time" : {
+        "start" : 1630880129930,
+        "stop" : 1630880130025,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, количество элементов на странице: 48",
+        "time" : {
+          "start" : 1630880129933,
+          "stop" : 1630880130024,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expVal",
+          "value" : "48"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда  Проверить первый элемент",
+      "time" : {
+        "start" : 1630880130025,
+        "stop" : 1630880150488,
+        "duration" : 20463
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "проверить первый элемент",
+        "time" : {
+          "start" : 1630880130026,
+          "stop" : 1630880150486,
+          "duration" : 20460
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "YandexMainSteps.tearDown()",
+    "time" : {
+      "start" : 1630880150493,
+      "stop" : 1630880152800,
+      "duration" : 2307
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "NB-03084"
+  }, {
+    "name" : "thread",
+    "value" : "10020@NB-03084.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "story",
+    "value" : "Поиск телевизора"
+  }, {
+    "name" : "suite",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "testClass",
+    "value" : "Поиск телевизора"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/FinalEx1Test.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.FinalEx1Test_feature.Яндекс Маркет"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19fdb781a2383874.json",
+  "parameterValues" : [ ]
+}

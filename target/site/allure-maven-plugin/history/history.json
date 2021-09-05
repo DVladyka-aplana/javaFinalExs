@@ -1,0 +1,41 @@
+{
+  "11e1787499111af3c43481aa07cc20aa" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "625ea9ee04e2ccb3",
+      "status" : "failed",
+      "statusDetails" : "expected:<...ки Beats Powerbeats [Pro]> but was:<...ки Beats Powerbeats [High-Performance Wireless]>",
+      "time" : {
+        "start" : 1630880160485,
+        "stop" : 1630880286368,
+        "duration" : 125883
+      }
+    } ]
+  },
+  "19afb2ac1500bd5ce7446c88b4e4359d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19fdb781a2383874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630879994985,
+        "stop" : 1630880152819,
+        "duration" : 157834
+      }
+    } ]
+  }
+}

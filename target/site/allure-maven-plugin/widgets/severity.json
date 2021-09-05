@@ -1,0 +1,21 @@
+[ {
+  "uid" : "19fdb781a2383874",
+  "name" : "Поиск телевизора",
+  "time" : {
+    "start" : 1630879994985,
+    "stop" : 1630880152819,
+    "duration" : 157834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "625ea9ee04e2ccb3",
+  "name" : "Поиск наушников",
+  "time" : {
+    "start" : 1630880160485,
+    "stop" : 1630880286368,
+    "duration" : 125883
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

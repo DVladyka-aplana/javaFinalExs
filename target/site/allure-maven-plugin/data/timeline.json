@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "NB-03084",
+    "children" : [ {
+      "name" : "10020@NB-03084.main(1)",
+      "children" : [ {
+        "name" : "Поиск наушников",
+        "uid" : "625ea9ee04e2ccb3",
+        "parentUid" : "d976ed33f2e143fcbdc2265bf56bda83",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630880160485,
+          "stop" : 1630880286368,
+          "duration" : 125883
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Поиск телевизора",
+        "uid" : "19fdb781a2383874",
+        "parentUid" : "d976ed33f2e143fcbdc2265bf56bda83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630879994985,
+          "stop" : 1630880152819,
+          "duration" : 157834
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d976ed33f2e143fcbdc2265bf56bda83"
+    } ],
+    "uid" : "9ee7d8d1c303f0ad9020967e5ae1d03b"
+  } ]
+}

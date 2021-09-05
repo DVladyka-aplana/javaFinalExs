@@ -1,0 +1,13 @@
+steps\FilterSteps.class
+pages\YandexMarketPage.class
+util\TestProperties.class
+pages\YandexElementPage.class
+pages\YandexElectroPage.class
+pages\YandexMainPage.class
+util\AllureReporter.class
+steps\ScenarioSteps.class
+steps\YandexElementSteps.class
+pages\FiltersPage.class
+steps\YandexMarketSteps.class
+steps\YandexMainSteps.class
+steps\YandexElectroSteps.class

@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<...ки Beats Powerbeats [Pro]> but was:<...ки Beats Powerbeats [High-Performance Wireless]>",
+      "children" : [ {
+        "name" : "Поиск наушников",
+        "uid" : "625ea9ee04e2ccb3",
+        "parentUid" : "8627a82a705c10b26d153d4d48b544c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630880160485,
+          "stop" : 1630880286368,
+          "duration" : 125883
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8627a82a705c10b26d153d4d48b544c7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

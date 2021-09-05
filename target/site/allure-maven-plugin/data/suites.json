@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Яндекс Маркет",
+    "children" : [ {
+      "name" : "Поиск телевизора",
+      "uid" : "19fdb781a2383874",
+      "parentUid" : "a39d22d596624353f697f1e9ae700126",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630879994985,
+        "stop" : 1630880152819,
+        "duration" : 157834
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Поиск наушников",
+      "uid" : "625ea9ee04e2ccb3",
+      "parentUid" : "a39d22d596624353f697f1e9ae700126",
+      "status" : "failed",
+      "time" : {
+        "start" : 1630880160485,
+        "stop" : 1630880286368,
+        "duration" : 125883
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a39d22d596624353f697f1e9ae700126"
+  } ]
+}
